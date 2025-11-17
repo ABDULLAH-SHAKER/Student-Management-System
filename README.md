@@ -1,4 +1,4 @@
-<p align="center">
+<p>
   <img src="assets/header.png" width="600" alt="Student Management System Header" />
 </p>
 # 🎓 Student Management System (Java OOP)
