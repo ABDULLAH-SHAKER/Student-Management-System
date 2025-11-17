@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/header.png" width="600" alt="Student Management System Header" />
+</p>
 # 🎓 Student Management System (Java OOP)
 
 A simple yet fully functional **Student Management System** built using **pure Java (OOP)**.
