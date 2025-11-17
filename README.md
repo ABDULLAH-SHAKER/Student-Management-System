@@ -1,30 +1,97 @@
-A complete Object-Oriented Programming project built using pure Java.
-This system manages students, teachers, courses, and enrollments using clean OOP principles including inheritance, polymorphism, encapsulation, and abstraction.
+# 🎓 Student Management System (Java OOP)
 
-✨ Features
+A simple yet fully functional **Student Management System** built using **pure Java (OOP)**.
+The project demonstrates strong understanding of:
 
-Add and list students
+* Object-Oriented Programming
+* Classes & Objects
+* Inheritance
+* Encapsulation
+* Relationships between objects (Student → Enrollment → Course)
+* Basic management operations (Add, List, Search)
 
-Add teachers and courses
+This project was created as part of my journey to improve Java skills and build clean OOP architecture.
 
-Register students in courses
+---
 
-Search for students by ID
+## 📁 Project Structure
 
-File-based storage (save & load data)
+```
+Main.java
+src/
+ ├── models/
+ │    ├── Person.java
+ │    ├── Student.java
+ │    ├── Teacher.java
+ │    ├── Course.java
+ │    └── Enrollment.java
+ │
+ └── services/
+      └── StudentManager.java
+```
 
-Clean class structure (Person → Student & Teacher)
+---
 
-OOP best practices implemented
+## 🚀 Features
 
-🎯 Purpose
+### 👨‍🎓 Students
 
-This project was created to practice Java fundamentals and demonstrate solid OOP understanding for university coursework and real-world learning.
+* Add new student
+* List all students
+* Unique student IDs
 
-🛠 Technologies
+### 📚 Courses
 
-Java (Pure OOP)
+* Add new course
+* Course code + name + credit hours
 
-No external frameworks
+### 📝 Enrollment
 
-File handling for data storage
+* Enroll a student into a course
+* Prevents enrollment if student or course does not exist
+* List all enrollments
+
+---
+
+## 🛠 Technologies Used
+
+* Java (Core)
+* OOP Principles
+* Scanner for console input
+
+---
+
+## ▶️ How to Run
+
+```bash
+javac Main.java
+java Main
+```
+
+---
+
+## 📜 License
+
+This project is under the **MIT License** – feel free to use and build on it.
+
+---
+
+## ⭐ Future Improvements
+
+* Save & load data from files
+* Add delete/edit functions
+* Add GUI using JavaFX
+* Convert to a Spring Boot REST API
+* Add database support
+
+---
+
+## 💬 Notes
+
+This project is intentionally written with clean, readable OOP design — perfect for learning or showing Java skills.
+
+---
+
+## 👤 Author
+
+Developed by **Abdullah** — improving Java skills one project at a time.
